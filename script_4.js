@@ -50,7 +50,7 @@ console.log(entrepreneurs.sort(tri))
 
 function tri(a,b)
 {
-	if (a.nom < b.nom) return -1;
-	else if (a.nom == b.nom) return 0;
+	if (a.last < b.last) return -1;
+	else if (a.last == b.last) return 0;
 	else return 1;
 }
